@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="grid-container">
+        <div class="item1">
+
+          <div>
+            <label>DAY</label><br>
+            <input type="number" placeholder="DD" id="day">
+          </div>
+           
+          <div>
+            <label>MONTH</label><br>
+            <input type="number" placeholder="MM" id="month">
+          </div>
+
+          <div>
+            <label>YEAR</label><br>
+            <input type="number" placeholder="YY" id="year">
+          </div>
+          
+        </div>
+        
+        <div class="image">
+            <hr color="#f0f0f0" noshade="30" size="1">
+            <img class="btn-img" onclick="calculateDate()" src="https://i.postimg.cc/pTv0bWNZ/icon-arrow.jpg" alt="icon-arrow">
+        </div>
+    
+        <p class="result">
+            <span id="result-year"  style="color: #864afe;">--</span>years <br>
+            <span id="result-month" style="color: #864afe;">--</span>month <br>
+            <span id="result-day" style="color: #864afe;">--</span>days
+        </p>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
